@@ -1,0 +1,61 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "joao@ecommerce.com",
+            "password": "senha123"
+        },
+        {
+            "id": 2,
+            "email": "maria@ecommerce.com",
+            "password": "minhaSenha!"
+        },
+        {
+            "id": 3,
+            "email": "pedro@ecommerce.com",
+            "password": "abc12345"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "Camiseta Angular",
+            "price": 29.9,
+            "image": "https://via.placeholder.com/200x200?text=Camiseta",
+            "category": "Roupas",
+            "description": "Camiseta oficial do Angular em malha algodão."
+        },
+        {
+            "id": 2,
+            "title": "Caneca TypeScript",
+            "price": 19.9,
+            "image": "https://via.placeholder.com/200x200?text=Caneca",
+            "category": "Acessórios",
+            "description": "Caneca de cerâmica com logo do TypeScript."
+        },
+        {
+            "id": 3,
+            "title": "Boné Vue.js",
+            "price": 39.9,
+            "image": "https://via.placeholder.com/200x200?text=Bone",
+            "category": "Acessórios",
+            "description": "Boné com patch bordado do Vue.js."
+        },
+        {
+            "id": 4,
+            "title": "Sticker React",
+            "price": 4.9,
+            "image": "https://via.placeholder.com/200x200?text=Sticker",
+            "category": "Decoração",
+            "description": "Sticker resistente à água com o logo do React."
+        },
+        {
+            "id": 5,
+            "title": "Mochila Node.js",
+            "price": 89.9,
+            "image": "https://via.placeholder.com/200x200?text=Mochila",
+            "category": "Bolsas",
+            "description": "Mochila em nylon com logo do Node.js."
+        }
+    ]
+}

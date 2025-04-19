@@ -1,0 +1,40 @@
+<div class="h-screen flex items-center justify-center bg-gradient-to-br from-indigo-500 to-purple-600">
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 w-96">
+        <h2 class="text-2xl font-semibold text-gray-700 dark:text-gray-200 mb-6 text-center">
+            Entrar no Ecommerce
+        </h2>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-600 dark:text-gray-300 mb-1">E-mail</label>
+                <input type="email" formControlName="email" placeholder="seu@ecommerce.com"
+                    class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 transition" />
+                <div *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid"
+                    class="text-red-500 text-sm mt-1">
+                    <span *ngIf="loginForm.get('email')?.errors?.['required']">E-mail é obrigatório.</span>
+                    <span *ngIf="loginForm.get('email')?.errors?.['email']">Formato inválido.</span>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <label class="block text-sm font-medium text-gray-600 dark:text-gray-300 mb-1">Senha</label>
+                <input type="password" formControlName="password" placeholder="••••••••"
+                    class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 transition" />
+                <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid"
+                    class="text-red-500 text-sm mt-1">
+                    <span *ngIf="loginForm.get('password')?.errors?.['required']">Senha é obrigatória.</span>
+                    <span *ngIf="loginForm.get('password')?.errors?.['minlength']">Mínimo de 6 caracteres.</span>
+                </div>
+            </div>
+
+            <button type="submit"
+                class="w-full bg-indigo-600 text-white font-semibold py-2 rounded-lg hover:bg-indigo-700 transition">
+                Entrar
+            </button>
+        </form>
+
+        <p class="text-sm text-center text-gray-500 dark:text-gray-400 mt-4">
+            Não tem conta?
+            <a routerLink="/signup" class="text-indigo-600 hover:underline">Cadastre‑se</a>
+        </p>
+    </div>
+</div>

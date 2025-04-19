@@ -1,0 +1,30 @@
+<!-- Seção com fundo e padding -->
+<div class="bg-gray-900 w-full px-4 py-20">
+    <div class="max-w-screen-xl mx-auto">
+
+        <!-- Título com subtítulo no estilo da imagem -->
+        <div class="mb-12">
+            <h4 class="text-pink-500 text-sm font-semibold uppercase tracking-widest mb-1">O que eu faço</h4>
+            <h2 class="text-white text-4xl md:text-5xl font-bold">Minhas habilidades</h2>
+        </div>
+
+        <!-- Cards -->
+        <div class="flex flex-wrap justify-center gap-8">
+            <app-skills-card class="transition transform hover:-translate-y-2 hover:shadow-xl duration-300"
+                title="💻 Front‑End" [skills]="skillsFront" buttonText="Me Contrate!">
+            </app-skills-card>
+
+            <app-skills-card class="transition transform hover:-translate-y-2 hover:shadow-xl duration-300"
+                title="🛠️ Back‑End" [skills]="skillsBack" buttonText="Me Contrate!">
+            </app-skills-card>
+
+            <app-skills-card class="transition transform hover:-translate-y-2 hover:shadow-xl duration-300"
+                title="🧰 Ferramentas" [skills]="skillsTools" buttonText="Me Contrate!">
+            </app-skills-card>
+
+            <app-skills-card class="transition transform hover:-translate-y-2 hover:shadow-xl duration-300"
+                title="💬 Linguagens" [skills]="skillsLanguages" buttonText="Me Contrate!">
+            </app-skills-card>
+        </div>
+    </div>
+</div>
