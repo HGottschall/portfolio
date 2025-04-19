@@ -1,0 +1,122 @@
+{
+    "skillsFront": [
+        {
+            "name": "Angular",
+            "enabled": true
+        },
+        {
+            "name": "Vue.js",
+            "enabled": true
+        },
+        {
+            "name": "Razor",
+            "enabled": true
+        },
+        {
+            "name": "Figma",
+            "enabled": true
+        },
+        {
+            "name": "React",
+            "enabled": false
+        },
+        {
+            "name": "Svelte",
+            "enabled": false
+        },
+        {
+            "name": "Qwik",
+            "enabled": false
+        }
+    ],
+    "skillsBack": [
+        {
+            "name": "ASP.NET",
+            "enabled": true
+        },
+        {
+            "name": "Microsoft SQL Server",
+            "enabled": true
+        },
+        {
+            "name": "MySQL",
+            "enabled": true
+        },
+        {
+            "name": "MongoDB",
+            "enabled": true
+        },
+        {
+            "name": "APIs RESTful",
+            "enabled": true
+        },
+        {
+            "name": "NestJS",
+            "enabled": false
+        },
+        {
+            "name": "PHP",
+            "enabled": false
+        }
+    ],
+    "skillsTools": [
+        {
+            "name": "TensorFlow",
+            "enabled": true
+        },
+        {
+            "name": "PyTorch",
+            "enabled": true
+        },
+        {
+            "name": "Power BI",
+            "enabled": true
+        },
+        {
+            "name": "Git / GitHub",
+            "enabled": true
+        },
+        {
+            "name": "Postman",
+            "enabled": true
+        },
+        {
+            "name": "Docker",
+            "enabled": false
+        },
+        {
+            "name": "Kubernetes",
+            "enabled": false
+        }
+    ],
+    "skillsLanguages": [
+        {
+            "name": "C#",
+            "enabled": true
+        },
+        {
+            "name": "JavaScript",
+            "enabled": true
+        },
+        {
+            "name": "TypeScript",
+            "enabled": true
+        },
+        {
+            "name": "Python",
+            "enabled": true
+        },
+        {
+            "name": "SQL",
+            "enabled": true
+        },
+        {
+            "name": "Java",
+            "enabled": false
+        },
+        {
+            "name": "PHP",
+            "enabled": false
+        }
+    ]
+}
